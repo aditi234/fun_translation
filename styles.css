@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
 
 body{
     background-color: darkseagreen;
@@ -20,4 +20,43 @@ body{
 select{
     padding: 10px;
     margin-bottom: 30px;
+}
+
+h2{
+    font-family: 'Redressed', cursive;
+    color: rgb(13, 61, 61);
+}
+
+textarea {
+    width: 80%;
+    height: 10vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#output {
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#txt-input{
+   margin-bottom: 30px;
+}
+
+button{
+  background-color:darkolivegreen;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
 }
