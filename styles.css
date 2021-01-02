@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap');
+
+
+body{
+    background-color: darkseagreen;
+}
+.navigation{
+    background-color: darkcyan;
+    padding:2rem ;
+    border-bottom-left-radius: 1rem;
+    color: white;
+}
+
+.navigation .nav-brand {
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Hanalei Fill', cursive;
+}
+
+select{
+    padding: 10px;
+    margin-bottom: 30px;
+}
